@@ -1,14 +1,14 @@
 variable "region" {
   description = "The AWS region to create resources in."
   type        = string
-  default     = "ap-south-1" 
+  default     = "ap-south-1" // Mumbai region
 }
 
 variable "ami_id" {
   description = "The AMI ID for the EC2 instance."
   type        = string
- 
-  default     = "ami-0c5204b7759d97034"
+  
+  default     = "ami-08c3e8787b407b483"
 }
 
 variable "instance_type" {
